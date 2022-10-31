@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;border-radius: 10px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: royalblue;
+}
+.container{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon1{
+    font-size: 130px;
+}
+.icon2{
+    font-size: 130px;
+}
+.icon3{
+    font-size: 130px;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: .6s;
+}
+p{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+.card1:hover{
+    border: 8px solid royalblue;
+}
+.card1:active {
+    margin-bottom: 70px;
+}
+.card2:hover{
+    border: 8px solid royalblue;
+}
+.card2:active {
+    margin-bottom: 70px;
+}
+.card3:hover{
+    border: 8px solid royalblue;
+}
+.card3:active {
+    margin-bottom: 70px;
+}
